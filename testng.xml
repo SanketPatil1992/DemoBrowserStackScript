@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="2" parallel="tests" name="Suite">
+  <test name="Sample Test for IOS ">
+    <classes>
+      <class name="TestBrowserStackOnIOS"/>
+    </classes>
+  </test> 
+  
+  <test name="Sample Test for Android ">
+    <classes>
+      <class name="TestBrowserStackOnAndroid"/>
+    </classes>
+  </test> 
+</suite> 
